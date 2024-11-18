@@ -3,10 +3,5 @@ export default function Layout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <main>
-      <h1>Public Layout</h1>
-      {children}
-    </main>
-  );
+  return <main>{children}</main>;
 }
